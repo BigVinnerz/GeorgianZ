@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
 
         if (isDashing)
         {
-            rigidBody2D.linearVelocity = dashingDir.normalized * dashingVelocity;
+            rigidBody2D.velocity = dashingDir.normalized * dashingVelocity;
             return;
         }
 
