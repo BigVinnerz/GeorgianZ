@@ -5,7 +5,6 @@ public class PlayerController : MonoBehaviour
 {
     // Walk Info
     [SerializeField] private float walkSpeed = 1;
-    private Rigidbody2D rb;
     private float xAxis;
 
     // Jump Info
@@ -14,6 +13,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckY = 0.2f;
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private LayerMask whatIsGround;
+
+    //Wall Jump Info
+    private bool isWallSliding;
+    private float wallSlidingSpeed = 2;
+    [SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask whatIsWall;
 
     //Dashing
     [SerializeField] private float dashingVelocity = 14f;
@@ -24,9 +29,17 @@ public class PlayerController : MonoBehaviour
 
     //Components
     private TrailRenderer trailRenderer;
+    private Rigidbody2D rb;
 
     // Double Jump
     private bool canDoubleJump;
+
+
+
+
+    private bool isFacingRight = true;
+
+
 
     void Start()
     {
@@ -36,6 +49,10 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
+
+        float x = Input.GetAxis("Horizontal");
+
         GetInputs();
         Move();
         Jump();
@@ -67,6 +84,17 @@ public class PlayerController : MonoBehaviour
         {
             canDash = true;
         }
+
+        // Flip Object
+        if ((x > 0 && !isFacingRight) || (x < 0 && isFacingRight))
+        {
+            FlipObject();
+        }
+
+
+
+        WallSlide();
+
     }
 
     private IEnumerator StopDashing()
@@ -109,4 +137,39 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private bool IsWalled()
+    {
+        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, whatIsWall);
+    }
+
+    private void FlipObject()
+    {
+        isFacingRight = !isFacingRight;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+
+    private void WallSlide()
+    {
+        if (IsWalled() && !Grounded() && xAxis != 0f)
+        {
+            isWallSliding = true;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Clamp(rb.linearVelocity.y, -wallSlidingSpeed, float.MaxValue));
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+    }
+
+
+
+
+
+
+
+
+
 }
