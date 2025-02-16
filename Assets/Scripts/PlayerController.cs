@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour
 
     //Components
     private TrailRenderer trailRenderer;
-    private Rigidbody2D rigidBody2D;
 
     void Start()
     {
@@ -52,7 +51,6 @@ public class PlayerController : MonoBehaviour
             if (dashingDir == Vector2.zero)
             {
                 dashingDir = new Vector2(transform.localScale.x, 0);
-
             }
 
             StartCoroutine(StopDashing());
@@ -63,7 +61,7 @@ public class PlayerController : MonoBehaviour
 
         if (isDashing)
         {
-            rigidBody2D.velocity = dashingDir.normalized * dashingVelocity;
+            rb.linearVelocity = dashingDir.normalized * dashingVelocity;
             return;
         }
 
