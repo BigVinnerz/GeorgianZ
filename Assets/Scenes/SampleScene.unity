@@ -782,7 +782,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
-  dashingVelocity: 14
+  dashingVelocity: 15
   dashingTime: 0.2
 --- !u!61 &2100952870
 BoxCollider2D:
