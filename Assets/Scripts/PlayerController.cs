@@ -14,11 +14,20 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float groundCheckX = 0.5f;
     [SerializeField] private LayerMask whatIsGround;
 
-    //Wall Jump Info
+    //Wall Jump and Slide Info
     private bool isWallSliding;
-    private float wallSlidingSpeed = 2;
+    [SerializeField] private float wallSlidingSpeed = 2;
     [SerializeField] private Transform wallCheck;
     [SerializeField] private LayerMask whatIsWall;
+
+    private bool isWallJumping;
+    private float wallJumpDirection;
+    [SerializeField] private float wallJumpingTime = 0.2f;
+    private float wallJumpCounter;
+    [SerializeField] private float wallJumpDuration = 0.4f;
+    private Vector2 wallJumpPower = new Vector2(7f, 7f);
+
+
 
     //Dashing
     [SerializeField] private float dashingVelocity = 14f;
@@ -86,14 +95,17 @@ public class PlayerController : MonoBehaviour
         }
 
         // Flip Object
-        if ((x > 0 && !isFacingRight) || (x < 0 && isFacingRight))
+        if (!isWallJumping)
         {
-            FlipObject();
+            if ((x > 0 && !isFacingRight) || (x < 0 && isFacingRight))
+            {
+                FlipObject();
+            }
         }
 
-
-
         WallSlide();
+        WallJump();
+
 
     }
 
@@ -164,9 +176,42 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void WallJump()
+    {
+        if (isWallSliding)
+        {
+            isWallJumping = false;
+            wallJumpDirection = -transform.localScale.x;
+            wallJumpCounter = wallJumpingTime;
+            CancelInvoke(nameof(StopWallJumping));
+        }
+        else
+        {
+            wallJumpCounter -= Time.deltaTime;
+        }
 
+        if (Input.GetButtonDown("Jump") && wallJumpCounter > 0f)
+        {
+            isWallJumping = true;
+            rb.linearVelocity = new Vector2(wallJumpDirection * wallJumpPower.x, wallJumpPower.y);
+            wallJumpCounter = 0f;
 
+            if (transform.localScale.x != wallJumpDirection)
+            {
+                isFacingRight = !isFacingRight;
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            }
 
+            Invoke(nameof(StopWallJumping), wallJumpDuration);
+        }
+    }
+
+    private void StopWallJumping()
+    {
+        isWallJumping = false;
+    }
 
 
 
