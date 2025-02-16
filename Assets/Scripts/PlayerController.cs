@@ -25,12 +25,13 @@ public class PlayerController : MonoBehaviour
     //Components
     private TrailRenderer trailRenderer;
 
+    // Double Jump
+    private bool canDoubleJump;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         trailRenderer = GetComponent<TrailRenderer>();
-
-
     }
 
     void Update()
@@ -54,10 +55,7 @@ public class PlayerController : MonoBehaviour
             }
 
             StartCoroutine(StopDashing());
-
-
         }
-
 
         if (isDashing)
         {
@@ -69,8 +67,6 @@ public class PlayerController : MonoBehaviour
         {
             canDash = true;
         }
-
-
     }
 
     private IEnumerator StopDashing()
@@ -78,10 +74,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashingTime);
         trailRenderer.emitting = false;
         isDashing = false;
-
-
     }
-
 
     void GetInputs()
     {
@@ -98,13 +91,22 @@ public class PlayerController : MonoBehaviour
         return Physics2D.Raycast(groundCheckpoint.position, Vector2.down, groundCheckY, whatIsGround)
             || Physics2D.Raycast(groundCheckpoint.position + new Vector3(groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround)
             || Physics2D.Raycast(groundCheckpoint.position + new Vector3(-groundCheckX, 0, 0), Vector2.down, groundCheckY, whatIsGround);
-    }  
+    }
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && Grounded())
+        if (Input.GetButtonDown("Jump"))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            if (Grounded())
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                canDoubleJump = true;
+            }
+            else if (canDoubleJump)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                canDoubleJump = false;
+            }
         }
     }
 }
