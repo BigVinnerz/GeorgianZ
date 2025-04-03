@@ -13,7 +13,7 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
+  - Pathways
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   m_SortingLayers:
   - name: Background
     uniqueID: 1105776857
+    locked: 0
+  - name: Pathways
+    uniqueID: 3832445975
     locked: 0
   - name: Default
     uniqueID: 0
