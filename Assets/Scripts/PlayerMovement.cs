@@ -1,25 +1,26 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Player : MonoBehaviour
 {
-    public float moveSpeed = 5f; 
-
-    private Rigidbody2D rb; 
-    private Vector2 movement; 
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>(); 
-    }
-
     void Update()
     {
-        movement.x = Input.GetAxis("Horizontal"); 
-        movement.y = Input.GetAxis("Vertical");   
-    }
-
-    void FixedUpdate()
-    {
-        rb.linearVelocity = movement * moveSpeed;
+        Vector3 direction = Vector3.zero;
+        if (Input.GetKey(KeyCode.W))
+        {
+            direction += Vector3.up;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            direction += Vector3.down;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            direction += Vector3.left;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            direction += Vector3.right;
+        }
+        transform.position += direction * 5.0f * Time.deltaTime;
     }
 }
