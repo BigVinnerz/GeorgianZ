@@ -2,15 +2,9 @@ using UnityEngine;
 
 public class LockerManager : MonoBehaviour, IInteractible
 {
-    public GameObject LockerNaturalState;
-    public GameObject LockerFallen;
+    public float fallenRotation = -90f; // Rotation angle when the locker falls
     private bool isLockerFallen = false; // Tracks if the locker has fallen
     private bool isInteractable = true;  // Tracks whether the locker is still interactable
-
-    void Start()
-    {
-        UpdateLockerState(); // Initial state when the game starts
-    }
 
     public void Interact()
     {
@@ -20,31 +14,20 @@ public class LockerManager : MonoBehaviour, IInteractible
             if (!isLockerFallen)
             {
                 isLockerFallen = true;
-                UpdateLockerState();
-                isInteractable = false; // Disable further interactions once it has fallen
-                Debug.Log("Locker has fallen. Updating state.");
+                RotateLocker(); // Rotate the locker
+                isInteractable = false; // Disable further interactions
+                Debug.Log("Locker has fallen. Rotated to fallen state.");
             }
-        }
-    }
-
-    // Updates the locker�s state based on whether it's fallen or not
-    private void UpdateLockerState()
-    {
-        if (isLockerFallen)
-        {
-            Debug.Log("Fallen state activated.");
-            LockerFallen.SetActive(true);  // Make the fallen state visible
-            LockerNaturalState.SetActive(false);  // Hide the natural state
-
-            LockerFallen.GetComponent<Collider2D>().enabled = true;
         }
         else
         {
-            Debug.Log("Natural state activated.");
-            LockerFallen.SetActive(false);  // Hide the fallen state
-            LockerNaturalState.SetActive(true);  // Show the natural state
-
-            LockerFallen.GetComponent<Collider2D>().enabled = false;
+            Debug.Log("Locker is not interactable.");
         }
+    }
+
+    private void RotateLocker()
+    {
+        // Rotate the locker to the specified fallen angle
+        transform.rotation = Quaternion.Euler(0, 0, fallenRotation);
     }
 }
