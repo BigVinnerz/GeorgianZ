@@ -1,0 +1,41 @@
+﻿title: LabSuppliesQuest
+tags:
+---
+<<declare $labSupplies = 0>>
+
+<<if $labSupplies >= 1>>
+    <<jump DoneLabQuest>>
+<<else>>
+Dr Cameron: Hello, who are you? are you a student?
+    Max Knightro: Hi, my name is Max.
+    Max Knightro: And yes I'm one of Prof. Scraymer's engineering students.
+        Dr Cameron: Oh that's great, glad to see another student that survived this outbreak.
+        Dr Cameron: Most of the students and Professors unfortunately didn't survive this virus.
+        Dr Cameron: That's why I want to try and figure out how this virus started.
+        Dr Cameron: But unfortunately all of my supplies to conduct my research is in my science lab.
+        Dr Cameron: Wait...
+        Dr Cameron: Max, do you think you'd be able to and get them from my classroom for me?
+            -> Accept
+                <<jump YesLabQuest>>
+<<endif>>
+===
+
+title: YesLabQuest
+---
+Max Knightro: I'd like to help out were I can.
+Max Knightro: So yes I can go and get tho supplies for you Dr Cameron.
+    Dr Cameron: Fantastic thank you so much Max.
+    Dr Cameron: Having those supplies will help me try and find out what happened and how this outbreak started.
+    Dr Cameron: The supplies are located inside my classroom in the E Building.
+    Dr Cameron: Just follow the hallway above us and turn left down hall and you'll find my classroom.
+    Dr Cameron: Be careful of the zombies and good luck Max.
+        <<stop>>  
+===
+
+title: DoneLabQuest
+---
+Dr Cameron: My supplies!
+Dr Cameron: Thank you again Max and hope it wasn't any trouble getting them.
+(QUEST COMPLETED)
+<<stop>>
+===
