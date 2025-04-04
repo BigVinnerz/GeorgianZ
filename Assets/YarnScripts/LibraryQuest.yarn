@@ -1,0 +1,47 @@
+﻿title: LibraryQuest
+tags:
+---
+<<declare $trashZombie = 0>>
+
+<<if $trashZombie >= 1>>
+    <<jump DoneLibQuest>>
+<<else>>
+Prof. Scraymer: Hey kid!
+Prof. Scraymer: ...
+Prof. Scraymer: Wait Max is that you?
+    Max Knightro: Professor Scraymer!
+        Prof. Scraymer: Max I'm so glad to see you alive!
+        Prof. Scraymer: When these zombie things showed up, I was afraid I lost all my students.
+        Prof. Scraymer: Glad to see you're still alive Max.
+            Max Knightro: You as well Professor, do you even know what happened?
+                Prof. Scraymer: No, unfortunately not Max.
+                Prof. Scraymer: It's already been a week since they showed up and we still have no idea how this all started.
+                Prof. Scraymer: You could ask Dr. Cameron, shes just over there.
+                Prof. Scraymer: She's a Virologist Professor here at Georgian, so she might know something about this.
+                    Max Knightro: Ok sounds good Professor thanks.
+                        Prof. Scraymer: Now before you go Max, I need help with something.
+                        Prof. Scraymer: I need someone to go to the library and take care of a particular zombie nesting there.
+                        Prof. Scraymer: That thing has been messing around with us, making it hard to get supplies in here.
+                        Prof. Scraymer: I know you just got here Max, but do you think you can do this for me?
+                            -> Accept
+                                <<jump YesLibQuest>>
+<<endif>>
+===
+
+title: YesLibQuest
+---
+Prof. Scraymer: Perfect, knew I could count on you Max.
+Prof. Scraymer: Now all you have to do Max is to lead the zombie into the trash compactor near that area.
+Prof. Scraymer: Good luck Max.
+===
+
+
+
+title: DoneLibQuest
+---
+Prof. Scraymer: Good job on taking care of that zombie Max.
+(QUEST COMPLETED)
+<<stop>>
+===
+
+
