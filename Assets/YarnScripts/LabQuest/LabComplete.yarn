@@ -1,0 +1,11 @@
+﻿title: LabComplete
+tags:
+---
+<<if $labSupplies >= 0>>
+    -> Collect lab supplies
+    <<set $labSupplies += 1>>
+    (LAB SUPPLIES COLLECTED)
+        Max Knightro: Now I must go back to Dr Cameron and let her know I have her supplies she wanted.
+            <<stop>>
+<<endif>>
+===
