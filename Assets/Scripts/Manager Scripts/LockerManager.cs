@@ -27,7 +27,7 @@ public class LockerManager : MonoBehaviour, IInteractible
         }
     }
 
-    // Updates the locker’s state based on whether it's fallen or not
+    // Updates the lockerï¿½s state based on whether it's fallen or not
     private void UpdateLockerState()
     {
         if (isLockerFallen)
@@ -35,12 +35,16 @@ public class LockerManager : MonoBehaviour, IInteractible
             Debug.Log("Fallen state activated.");
             LockerFallen.SetActive(true);  // Make the fallen state visible
             LockerNaturalState.SetActive(false);  // Hide the natural state
+
+            LockerFallen.GetComponent<Collider2D>().enabled = true;
         }
         else
         {
             Debug.Log("Natural state activated.");
             LockerFallen.SetActive(false);  // Hide the fallen state
             LockerNaturalState.SetActive(true);  // Show the natural state
+
+            LockerFallen.GetComponent<Collider2D>().enabled = false;
         }
     }
 }
