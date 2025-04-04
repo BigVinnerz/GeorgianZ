@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -153,7 +153,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -181,12 +181,12 @@ TextureImporter:
       name: georgianztilemap_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 95
-        width: 18
-        height: 18
+        x: 18
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: georgianztilemap_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 78
-        width: 18
-        height: 18
+        x: 18
+        y: 79
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: georgianztilemap_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 95
-        width: 18
-        height: 18
+        x: 35
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: georgianztilemap_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 78
-        width: 18
-        height: 18
+        x: 35
+        y: 79
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: georgianztilemap_4
       rect:
         serializedVersion: 2
-        x: 51
-        y: 78
-        width: 18
-        height: 18
+        x: 52
+        y: 79
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: georgianztilemap_5
       rect:
         serializedVersion: 2
-        x: 68
-        y: 78
-        width: 18
-        height: 18
+        x: 69
+        y: 79
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,12 +313,12 @@ TextureImporter:
       name: georgianztilemap_6
       rect:
         serializedVersion: 2
-        x: 85
-        y: 78
-        width: 18
-        height: 18
+        x: 86
+        y: 79
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -335,12 +335,12 @@ TextureImporter:
       name: georgianztilemap_7
       rect:
         serializedVersion: 2
-        x: 17
-        y: 61
-        width: 18
-        height: 18
+        x: 18
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -357,12 +357,12 @@ TextureImporter:
       name: georgianztilemap_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 44
-        width: 18
-        height: 18
+        x: 18
+        y: 45
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -379,12 +379,12 @@ TextureImporter:
       name: georgianztilemap_9
       rect:
         serializedVersion: 2
-        x: 34
-        y: 61
-        width: 18
-        height: 18
+        x: 35
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -401,12 +401,12 @@ TextureImporter:
       name: georgianztilemap_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 44
-        width: 18
-        height: 18
+        x: 35
+        y: 45
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -423,12 +423,12 @@ TextureImporter:
       name: georgianztilemap_11
       rect:
         serializedVersion: 2
-        x: 51
-        y: 61
-        width: 18
-        height: 18
+        x: 52
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: georgianztilemap_12
       rect:
         serializedVersion: 2
-        x: 51
-        y: 44
-        width: 18
-        height: 18
+        x: 52
+        y: 45
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -467,12 +467,12 @@ TextureImporter:
       name: georgianztilemap_13
       rect:
         serializedVersion: 2
-        x: 68
-        y: 61
-        width: 18
-        height: 18
+        x: 69
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -489,12 +489,12 @@ TextureImporter:
       name: georgianztilemap_14
       rect:
         serializedVersion: 2
-        x: 68
-        y: 44
-        width: 18
-        height: 18
+        x: 69
+        y: 45
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -511,12 +511,12 @@ TextureImporter:
       name: georgianztilemap_15
       rect:
         serializedVersion: 2
-        x: 85
-        y: 61
-        width: 18
-        height: 18
+        x: 86
+        y: 62
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -533,12 +533,12 @@ TextureImporter:
       name: georgianztilemap_16
       rect:
         serializedVersion: 2
-        x: 85
-        y: 44
-        width: 18
-        height: 18
+        x: 86
+        y: 45
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -555,12 +555,12 @@ TextureImporter:
       name: georgianztilemap_17
       rect:
         serializedVersion: 2
-        x: 17
-        y: 27
-        width: 18
-        height: 18
+        x: 18
+        y: 28
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -577,12 +577,12 @@ TextureImporter:
       name: georgianztilemap_18
       rect:
         serializedVersion: 2
-        x: 17
-        y: 10
-        width: 18
-        height: 18
+        x: 18
+        y: 11
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -599,12 +599,12 @@ TextureImporter:
       name: georgianztilemap_19
       rect:
         serializedVersion: 2
-        x: 34
-        y: 27
-        width: 18
-        height: 18
+        x: 35
+        y: 28
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -621,12 +621,12 @@ TextureImporter:
       name: georgianztilemap_20
       rect:
         serializedVersion: 2
-        x: 34
-        y: 10
-        width: 18
-        height: 18
+        x: 35
+        y: 11
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -643,12 +643,12 @@ TextureImporter:
       name: georgianztilemap_21
       rect:
         serializedVersion: 2
-        x: 51
-        y: 27
-        width: 18
-        height: 18
+        x: 52
+        y: 28
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -665,12 +665,12 @@ TextureImporter:
       name: georgianztilemap_22
       rect:
         serializedVersion: 2
-        x: 51
-        y: 10
-        width: 18
-        height: 18
+        x: 52
+        y: 11
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -687,12 +687,12 @@ TextureImporter:
       name: georgianztilemap_23
       rect:
         serializedVersion: 2
-        x: 68
-        y: 27
-        width: 18
-        height: 18
+        x: 69
+        y: 28
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -709,12 +709,12 @@ TextureImporter:
       name: georgianztilemap_24
       rect:
         serializedVersion: 2
-        x: 68
-        y: 10
-        width: 18
-        height: 18
+        x: 69
+        y: 11
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,12 +731,12 @@ TextureImporter:
       name: georgianztilemap_25
       rect:
         serializedVersion: 2
-        x: 85
-        y: 27
-        width: 18
-        height: 18
+        x: 86
+        y: 28
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -753,12 +753,12 @@ TextureImporter:
       name: georgianztilemap_26
       rect:
         serializedVersion: 2
-        x: 85
-        y: 10
-        width: 18
-        height: 18
+        x: 86
+        y: 11
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -775,7 +775,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae7b4700bd25de34f9c2394557aa6a6e
     internalID: 0
     vertices: []
     indices: 
