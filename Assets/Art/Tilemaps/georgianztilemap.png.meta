@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 21ee3d3919d0c164c98de430045a7f30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6072806992907716913
+    second: georgianztilemap_0
+  - first:
+      213: 7210245928032474443
+    second: georgianztilemap_1
+  - first:
+      213: 2169770732531288036
+    second: georgianztilemap_2
+  - first:
+      213: -9222489814564322996
+    second: georgianztilemap_3
+  - first:
+      213: -1964949315266871055
+    second: georgianztilemap_4
+  - first:
+      213: 5273671668599833159
+    second: georgianztilemap_5
+  - first:
+      213: 1187514756895917059
+    second: georgianztilemap_6
+  - first:
+      213: -1119057207648180795
+    second: georgianztilemap_7
+  - first:
+      213: -1341437657248010043
+    second: georgianztilemap_8
+  - first:
+      213: -4140686839642178888
+    second: georgianztilemap_9
+  - first:
+      213: 679890604136319103
+    second: georgianztilemap_10
+  - first:
+      213: 8784895647752895783
+    second: georgianztilemap_11
+  - first:
+      213: -2764395674462918123
+    second: georgianztilemap_12
+  - first:
+      213: -15219771944866174
+    second: georgianztilemap_13
+  - first:
+      213: 7966544718540498044
+    second: georgianztilemap_14
+  - first:
+      213: -6405772569995585464
+    second: georgianztilemap_15
+  - first:
+      213: -8476116628076576450
+    second: georgianztilemap_16
+  - first:
+      213: -5645170520254041835
+    second: georgianztilemap_17
+  - first:
+      213: -5444527114588537696
+    second: georgianztilemap_18
+  - first:
+      213: -4768531170463721623
+    second: georgianztilemap_19
+  - first:
+      213: 4904426514813520271
+    second: georgianztilemap_20
+  - first:
+      213: -1116282123963904849
+    second: georgianztilemap_21
+  - first:
+      213: 3468532268656076837
+    second: georgianztilemap_22
+  - first:
+      213: -5269690728441558737
+    second: georgianztilemap_23
+  - first:
+      213: 7338281991016780266
+    second: georgianztilemap_24
+  - first:
+      213: -1066741811454834033
+    second: georgianztilemap_25
+  - first:
+      213: 1674057589799984577
+    second: georgianztilemap_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: georgianztilemap_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc63a3e073e09bba0800000000000000
+      internalID: -6072806992907716913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 78
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4515935870ff0460800000000000000
+      internalID: 7210245928032474443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7019c3cf29c1e10800000000000000
+      internalID: 2169770732531288036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 78
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c414c326062230080800000000000000
+      internalID: -9222489814564322996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 78
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f00fdd22091bb4e0800000000000000
+      internalID: -1964949315266871055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 78
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7424fe40178df2940800000000000000
+      internalID: 5273671668599833159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 78
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304c0523166ea7010800000000000000
+      internalID: 1187514756895917059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c52ace066f4870f0800000000000000
+      internalID: -1119057207648180795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c07667de81426de0800000000000000
+      internalID: -1341437657248010043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_9
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba3ef4f1435986c0800000000000000
+      internalID: -4140686839642178888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78cba9f6e47f6900800000000000000
+      internalID: 679890604136319103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dbf291c083ae970800000000000000
+      internalID: 8784895647752895783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ae20dc7c4e2a9d0800000000000000
+      internalID: -2764395674462918123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ee9a3b2bde9cff0800000000000000
+      internalID: -15219771944866174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74eed3863ade8e60800000000000000
+      internalID: 7966544718540498044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 61
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848d87d69cf1a17a0800000000000000
+      internalID: -6405772569995585464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 44
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31c6bcc5d8ce5a80800000000000000
+      internalID: -8476116628076576450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51130cb325358a1b0800000000000000
+      internalID: -5645170520254041835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acb7f48f672174b0800000000000000
+      internalID: -5444527114588537696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967d12c4a26c2ddb0800000000000000
+      internalID: -4768531170463721623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8987723ee5001440800000000000000
+      internalID: 4904426514813520271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac4304925b2280f0800000000000000
+      internalID: -1116282123963904849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a935a8b3b22030800000000000000
+      internalID: 3468532268656076837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f294217d33c4ed6b0800000000000000
+      internalID: -5269690728441558737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae193384790d6d560800000000000000
+      internalID: 7338281991016780266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 27
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a8d2d69fb2231f0800000000000000
+      internalID: -1066741811454834033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: georgianztilemap_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 10
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd139522827b3710800000000000000
+      internalID: 1674057589799984577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      georgianztilemap_0: -6072806992907716913
+      georgianztilemap_1: 7210245928032474443
+      georgianztilemap_10: 679890604136319103
+      georgianztilemap_11: 8784895647752895783
+      georgianztilemap_12: -2764395674462918123
+      georgianztilemap_13: -15219771944866174
+      georgianztilemap_14: 7966544718540498044
+      georgianztilemap_15: -6405772569995585464
+      georgianztilemap_16: -8476116628076576450
+      georgianztilemap_17: -5645170520254041835
+      georgianztilemap_18: -5444527114588537696
+      georgianztilemap_19: -4768531170463721623
+      georgianztilemap_2: 2169770732531288036
+      georgianztilemap_20: 4904426514813520271
+      georgianztilemap_21: -1116282123963904849
+      georgianztilemap_22: 3468532268656076837
+      georgianztilemap_23: -5269690728441558737
+      georgianztilemap_24: 7338281991016780266
+      georgianztilemap_25: -1066741811454834033
+      georgianztilemap_26: 1674057589799984577
+      georgianztilemap_3: -9222489814564322996
+      georgianztilemap_4: -1964949315266871055
+      georgianztilemap_5: 5273671668599833159
+      georgianztilemap_6: 1187514756895917059
+      georgianztilemap_7: -1119057207648180795
+      georgianztilemap_8: -1341437657248010043
+      georgianztilemap_9: -4140686839642178888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
