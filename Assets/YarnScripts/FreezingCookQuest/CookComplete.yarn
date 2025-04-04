@@ -1,0 +1,10 @@
+﻿title: CookComplete
+tags:
+---
+<<if $CookGet >= 0>>
+    Cook: ..t-t-t-hank you. I've got to get back to work, or that waitress is gonna kill me..
+    <<set $CookGet +=1>>
+        Max Knightro: Alright. Better get back to that waitress..
+            <<stop>>
+<<endif>>
+===
