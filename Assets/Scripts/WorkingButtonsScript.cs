@@ -50,5 +50,7 @@ public class WorkingButtonsScript : MonoBehaviour
         {
             interactableObject.Interact();
         }
+
+
     }
 }
