@@ -1,4 +1,4 @@
-﻿title: FindGeneratorsQuestStart
+﻿title: FindGeneratorsQuest
 tags:
 ---
 <<declare $GeneratorQuest = 0>>
