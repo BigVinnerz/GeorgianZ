@@ -1,0 +1,11 @@
+﻿title: LibComplete
+tags:
+---
+<<if $trashZombie >= 0>>
+    -> Lock the door
+    <<set $trashZombie +=1>>
+    (THE DOOR IS LOCKED AND THE ZOMBIE IS TRAPPED)
+        Max Knightro: Now I must go back to Prof. Scraymer and let him know I finished the job.
+            <<stop>>
+<<endif>>
+===
