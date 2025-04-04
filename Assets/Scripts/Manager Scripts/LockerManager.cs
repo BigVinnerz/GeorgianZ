@@ -9,14 +9,8 @@ public class LockerManager : MonoBehaviour, IInteractible
 
     void Start()
     {
-        UpdateLockerState();
+        UpdateLockerState(); // Initial state when the game starts
     }
-
-    void Update()
-    {
-
-    }
-
 
     public void Interact()
     {
@@ -27,7 +21,8 @@ public class LockerManager : MonoBehaviour, IInteractible
             {
                 isLockerFallen = true;
                 UpdateLockerState();
-                isInteractable = false; // Disable interactions once it has fallen
+                isInteractable = false; // Disable further interactions once it has fallen
+                Debug.Log("Locker has fallen. Updating state.");
             }
         }
     }
@@ -37,15 +32,15 @@ public class LockerManager : MonoBehaviour, IInteractible
     {
         if (isLockerFallen)
         {
-            // Show fallen locker and hide natural state
-            LockerFallen.SetActive(true);
-            LockerNaturalState.SetActive(false);
+            Debug.Log("Fallen state activated.");
+            LockerFallen.SetActive(true);  // Make the fallen state visible
+            LockerNaturalState.SetActive(false);  // Hide the natural state
         }
         else
         {
-            // Show natural state locker and hide fallen state
-            LockerFallen.SetActive(false);
-            LockerNaturalState.SetActive(true);
+            Debug.Log("Natural state activated.");
+            LockerFallen.SetActive(false);  // Hide the fallen state
+            LockerNaturalState.SetActive(true);  // Show the natural state
         }
     }
 }

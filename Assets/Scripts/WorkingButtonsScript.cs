@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public interface IInteractible
@@ -19,7 +18,7 @@ public class WorkingButtonsScript : MonoBehaviour
 
     void Start()
     {
-        // Hides the interaction canvas when the game first starts.
+        // Hides the interaction canvas when the game first starts
         interactionCanvas.enabled = false;
     }
 
@@ -29,28 +28,26 @@ public class WorkingButtonsScript : MonoBehaviour
 
         if (distance <= interactionDistance)
         {
+            // If the player is in range, show the prompt
             isinRange = true;
             interactionCanvas.enabled = true;
             promptText.text = "E";
 
-            // Gets the IInteractible component from the current GameObject.
+            // Get the IInteractible component from the current GameObject
             interactableObject = GetComponent<IInteractible>();
         }
         else
         {
+            // If the player is out of range, hide the prompt and set the interactable object to null
             isinRange = false;
             interactionCanvas.enabled = false;
-
-            // If no interactable object in range, set it to null.
             interactableObject = null;
         }
 
-        // If the "E" key is pressed and an interactable object is in range, call Interact() method.
+        // If the "E" key is pressed and the player is in range, call Interact() on the interactable object
         if (Input.GetKeyDown(KeyCode.E) && isinRange && interactableObject != null)
         {
             interactableObject.Interact();
         }
-
-
     }
 }
