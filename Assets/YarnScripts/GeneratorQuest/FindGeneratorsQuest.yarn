@@ -1,18 +1,21 @@
 ﻿title: FindGeneratorsQuestStart
 tags:
 ---
-
+<<declare $GeneratorQuest == 0>>
 
 // Introduction
 Janitor: Hey you must be new here.
 Janitor: I've been super tired getting this camp set up for the survivors.
 Janitor: I would greatly appreciate it if you could do the last step for me.
 	-> I can that, what's the last step?
-		
+Janitor: The last step is turning on the back up generators.
+Janitor: There's 3 of them, I would've moved them to this room, but they're quite heavy so they're scattered around the campus.
+Janitor: They shouldn't be anywhere too dangerous for you.
+Janitor: 
 
 
 
 ===
 
-
+title:
 
