@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    public float moveSpeed = 5.0f;
+
     void Update()
     {
         Vector3 direction = Vector3.zero;
@@ -21,6 +24,6 @@ public class Player : MonoBehaviour
         {
             direction += Vector3.right;
         }
-        transform.position += direction * 5.0f * Time.deltaTime;
+        transform.position += direction * moveSpeed * Time.deltaTime;
     }
 }
