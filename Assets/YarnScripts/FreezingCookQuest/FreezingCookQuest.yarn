@@ -6,12 +6,26 @@ tags:
 <<if $CookGet >= 1>>
     <<jump CookDone>>
 <<else>>
-
+Waitress: Hey! You!
+Waitress: ...
+    Max Knightro: ..yes?
+        Waitress: I need someone to do me a favour; and it's gonna be you.
+            Max Knightro: What's the problem?
+                Waitress: That good-for-nothing cook hasn't come back since he went on his break! I want you to go and get him-- I can't feed all these people myself!
+                -> Accept
+                    <<jump AcceptCook>>
 <<endif>>
 ===
-
+title: AcceptCook
+tags:
+---
+Waitress: I appreciate that. Last I heard, he was somewhere snoozing in the kitchen to the East.
+Waitress: Now get going! I need him back before the lunch rush starts!
+===
 title: CookDone
 tags:
 ---
-
+Waitress: Amazing! And just in time for the lunch rush. Thanks, Max!
+(QUEST COMPLETED)
+<<stop>>
 ===
