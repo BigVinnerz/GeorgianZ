@@ -1,5 +1,17 @@
 ﻿title: FreezingCookQuest
 tags:
 ---
-d
+<<declare $CookGet = 0>>
+
+<<if $CookGet >= 1>>
+    <<jump CookDone>>
+<<else>>
+
+<<endif>>
+===
+
+title: CookDone
+tags:
+---
+
 ===
