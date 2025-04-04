@@ -4,18 +4,33 @@ public class DoorManager : MonoBehaviour, IInteractible
 {
     public GameObject DoorOpen;
     public GameObject DoorClose;
-    private bool isDoorOpen = false; // Tracks the state of the door
+    private bool isDoorOpen = true; // Tracks the state of the door
 
+    public Transform playerTransform; // Reference to the player's transform
+    public float interactionRange = 5f; // The range within which the player can interact with the door
 
     void Start()
     {
+        if (playerTransform == null)
+        {
+            playerTransform = GameObject.FindGameObjectWithTag("Player").transform; // Find the player if not set
+        }
         UpdateDoorState();
     }
 
-
     void Update()
     {
+        if (IsPlayerInRange() && Input.GetKeyDown(KeyCode.E)) // Check if player is within range and presses E
+        {
+            Interact();
+        }
+    }
 
+
+    private bool IsPlayerInRange()
+    {
+        float distance = Vector3.Distance(transform.position, playerTransform.position);
+        return distance <= interactionRange;
     }
 
     public void Interact()
