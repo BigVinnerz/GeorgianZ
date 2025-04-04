@@ -1,4 +1,4 @@
-﻿title: LibraryQuest
+title: LibraryQuest
 tags:
 ---
 <<declare $trashZombie = 0>>
@@ -31,7 +31,7 @@ Prof. Scraymer: Wait Max is that you?
 title: YesLibQuest
 ---
 Prof. Scraymer: Perfect, knew I could count on you Max.
-Prof. Scraymer: Now all you have to do Max is to lead the zombie into the trash compactor near that area.
+Prof. Scraymer: Now all you have to do Max is to lead the zombie into the trash compactor and lock him in there.
 Prof. Scraymer: Good luck Max.
 ===
 
