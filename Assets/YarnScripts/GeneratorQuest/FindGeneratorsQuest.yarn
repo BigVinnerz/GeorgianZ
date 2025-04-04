@@ -11,11 +11,12 @@ Janitor: I would greatly appreciate it if you could do the last step for me.
 Janitor: The last step is turning on the back up generators.
 Janitor: There's 3 of them, I would've moved them to this room, but they're quite heavy so they're scattered around the campus.
 Janitor: They shouldn't be anywhere too dangerous for you.
-Janitor: 
-
-
+Janitor: One of them is in what was the old library in K Building.
+Janitor: Another one is in room A207, the Game Lab room.
+Janitor: The last one is in the old cafe that used to be here, think it was called "The Last Class".
+	-> Is there a specific order to turn them on?
+Janitor: Not at all, any order will do.
+	-> I'm gonna get to it then.
+		<<set $GeneratorQuest = 1>>
 
 ===
-
-title:
-
