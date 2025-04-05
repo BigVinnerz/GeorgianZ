@@ -19,35 +19,26 @@ public class CameraMoverYarn : MonoBehaviour
         // Check the node name to move the camera
         switch (nodeName)
         {
-            case "Start":
+            case "NarrativeCutscene":
                 MoveCamera(0);
                 break;
-            case "Begin":
+            case "cut1":
                 MoveCamera(1);
                 break;
-            case "ReadyText":
+            case "cut2":
                 MoveCamera(2);
                 break;
-            case "ScaredText":
+            case "cut3":
                 MoveCamera(3);
                 break;
-            case "BranchOff":
+            case "cut4":
                 MoveCamera(4);
                 break;
-            case "BranchA":
+            case "cut5":
                 MoveCamera(5);
                 break;
-            case "BranchB":
+            case "cut6":
                 MoveCamera(6);
-                break;
-            case "Ending":
-                MoveCamera(7);
-                break;
-            case "EndingOne":
-                MoveCamera(8);
-                break;
-            case "EndingTwo":
-                MoveCamera(9);
                 break;
         }
     }

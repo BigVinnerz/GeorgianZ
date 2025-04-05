@@ -1,0 +1,42 @@
+﻿title: NarrativeCutscene
+tags:
+---
+Narrator: It’s been a week since everything fell apart. A mysterious outbreak came out of nowhere and swept across the globe, turning people into nightmarish zombies. I was almost done my last year here at Georgian College and I would have been starting my career as an engineer. Well not anymore, now it’s all about surviving and staying alive. #line:gz1
+    <<jump cut1>>
+===
+
+title: cut1
+---
+Narrator: Most of us didn’t stand a chance. The zombies swarmed the campus out of nowhere, infecting everyone around mutating them into grotestique monsters. Supplies are running low, and survivors are even harder to find. But I can’t stay here in the dorms forever without supplies. I have to try and get inside the campus, maybe the cafeteria will have what I’ll need, food, medicine, people, anything. #line:gz2
+    <<jump cut2>>
+===
+
+title: cut2
+---
+Narrator: I’m getting there about halfway to the school building now, no zombies in sight, very odd how it's this quiet. I would say it’s too quiet, usually I would always hear noises coming from the parking lot, figured they would be everywhere out here…Oh no wait what was that. #line:gz3
+    <<jump cut3>>
+===
+
+title: cut3
+---
+Narrator: Oh no, of course it couldn’t have been this simple. #line:gz4
+    <<jump cut4>>
+===
+
+title: cut4
+---
+Narrator: Ah you’ve got to be kidding me, a horde of them! No time to think. I just gotta run. #line:gz5
+    <<jump cut5>>
+===
+
+title: cut5
+---
+Narrator: My god these things don’t stop. They don’t tire out. And one slip means it’s over for me. #line:gz6
+    <<jump cut6>>
+===
+
+title: cut6
+---
+Narrator: Well I made it. For now anyways. Damn that was a close one, and this is only the beginning. #line:gz7
+    <<stop>>
+===

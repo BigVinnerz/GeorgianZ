@@ -1,0 +1,17 @@
+{
+  "projectFileVersion": 2,
+  "sourceFiles": [
+    "**/*.yarn",
+    "NarrativeCutscene.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*"
+  ],
+  "localisation": {
+    "en": {
+      "assets": "..\\Resources"
+    }
+  },
+  "baseLanguage": "en",
+  "compilerOptions": {}
+}
