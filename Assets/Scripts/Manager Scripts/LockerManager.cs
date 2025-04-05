@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class LockerManager : MonoBehaviour, IInteractible
 {
-    public float fallenRotation = -90f; // Rotation angle when the locker falls
-    private bool isLockerFallen = false; // Tracks if the locker has fallen
-    private bool isInteractable = true;  // Tracks whether the locker is still interactable
+    public float fallenRotation = -90f; 
+    public Vector2 fallenPosition = new Vector2(0, 0); 
+    private bool isLockerFallen = false; 
+    private bool isInteractable = true;  
 
     public void Interact()
     {
         if (isInteractable)
         {
-            // If locker is not already fallen, make it fall
             if (!isLockerFallen)
             {
                 isLockerFallen = true;
-                RotateLocker(); // Rotate the locker
-                isInteractable = false; // Disable further interactions
-                Debug.Log("Locker has fallen. Rotated to fallen state.");
+                UpdateLockerState(); 
+                isInteractable = false; 
+                Debug.Log("Locker has fallen. Updated rotation and position.");
             }
         }
         else
@@ -25,9 +25,14 @@ public class LockerManager : MonoBehaviour, IInteractible
         }
     }
 
-    private void RotateLocker()
+    private void UpdateLockerState()
     {
         // Rotate the locker to the specified fallen angle
         transform.rotation = Quaternion.Euler(0, 0, fallenRotation);
+
+        // Move the locker to the specified fallen position
+        transform.position = new Vector3(fallenPosition.x, fallenPosition.y, transform.position.z);
+
+        Debug.Log($"Locker position updated to: {fallenPosition}");
     }
 }

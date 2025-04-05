@@ -148,7 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4afce63750b487244b790aab706e704e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallenRotation: -90
+  fallenRotation: 90
+  fallenPosition: {x: -80.04, y: 2.43}
 --- !u!1 &6789876313754810692
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +230,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0012329742, y: -0.00062549114}
+  m_Offset: {x: -0.017558157, y: -0.00032433122}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -239,5 +240,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.123729184, y: 0.10392156}
+  m_Size: {x: 0.16131145, y: 0.12825908}
   m_EdgeRadius: 0
